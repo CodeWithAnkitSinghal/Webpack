@@ -1,0 +1,25 @@
+{
+  "name": "webpacktutorial",
+  "version": "1.0.0",
+  "description": "Tutorial practise for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildJS": "webpack --watch",
+    "dev": "start npm run buildJS && start lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithAnkitSinghal/Webpack.git"
+  },
+  "author": "Ankit Singhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithAnkitSinghal/Webpack/issues"
+  },
+  "homepage": "https://github.com/CodeWithAnkitSinghal/Webpack#readme",
+  "dependencies": {
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  }
+}
